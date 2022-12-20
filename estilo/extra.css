@@ -1,0 +1,129 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+
+body {
+    background-color: #c5ebd6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(#348f5e, #165f38dc, #083c20d4);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px 0px;
+}
+
+nav {
+    text-align: left;
+    margin: 10px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav > a:hover {
+    background-color: #79f9b52f;
+    padding: 10px;
+}
+
+h1#tituloprincipal {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+p#subtituloprincipal {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    box-shadow: 8px 8px 15px #a695809d;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+}
+
+.titulo-h1 {
+    font-family: 'idroid', Verdana, sans-serif;
+    color: #348f5e;
+}
+
+.conteudo-paragrafo {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.subtitulo-h2 {
+    background-color: #61e19d4b;
+    font-family: 'idroid', Verdana, sans-serif;
+    color: #348f5e;
+}
+
+a {
+    text-decoration: none;
+    color: #348f5e;
+    font-weight: bold;
+}
+
+.imgs {
+    text-align: center;
+}
+
+.video-main {
+    text-align: center;
+    padding: 20px;
+    background-color: #083c20d4;
+}
+
+.conteudo-extra {
+    background-color: #61e19d4b;
+    align-items: center;
+    width: 650px;
+    margin: 10px 20px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.464);
+}
+
+.subtitulo-extra {
+    background-color:  #0d994eb7;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.conteudo-paragrafo {
+    padding: 8px;
+}
+
+.list {
+    display: inline-block;
+    margin: 20px;
+}
+
+.list2 {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+footer {
+    background-color: #032c16;
+    padding: 2px;
+}
+
+.paragrafo-footer {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
