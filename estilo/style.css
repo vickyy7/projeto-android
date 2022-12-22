@@ -46,7 +46,7 @@ header {
 header > h1 {
     color: #ffffff;
     font-family: var(--fonte-destaque);
-    font-size: 2.6em;
+    font-size: 2.5em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
@@ -132,7 +132,7 @@ main a {
     font-weight: bold;
     color: var(--cor5);
     background-color: #c5ebd683;
-    padding: 3px 7px;
+    padding: 2px 5px;
     border-radius: 5px;
     text-decoration: none;
 }
